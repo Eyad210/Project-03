@@ -1,0 +1,102 @@
+
+
+/*FIIIIIX THE BACKGROUND IMAGE AND ADD THE BOTTOM LOGOS*/
+
+body{
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    
+    background-image: url(bg-desktop.svg);
+    background-repeat: no-repeat;
+    
+    margin-left: 75px;
+    margin-right: 45px;
+
+}
+
+
+#log{
+    height: 170px;
+    width: 220px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+p{
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+
+#logo{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+
+.cont{
+    display: flex;
+}
+
+
+.paragraph{
+    margin-top: 25px;
+    margin-left: 50px;
+    
+}
+
+
+button{
+    font-weight: 400;
+    font-family: "Open Sans";
+
+    text-align: center;
+    font-size: 16px;
+
+    color: hsl(257, 40%, 49%);
+
+    margin-top: 20px;
+
+    padding: 15px 60px;
+    border: none;
+
+    border-radius: 25px;
+    box-shadow: 2px 5px 20px -6px black;
+}
+
+
+.images{
+    margin-left: auto;
+    margin-right: 100px;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    
+    
+}
+
+
+#facebook{
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#twitter{
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#instagram{
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 5px;
+}
